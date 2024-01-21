@@ -53,6 +53,49 @@
   .site-footer #footer-contacts .site-mobile-app {
     justify-content: end;
   }
+  #main-header .wrapper {
+    padding: 260px 0;
+  }
+  #main-header .wrapper h1 {
+    font-size: 60px;
+  }
+  #about h2 {
+    padding-left: 60px;
+  }
+  #about p {
+    padding-left: 60px;
+  }
+  #author .author-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #author .author-information .author-img {
+    padding-right: 15px;
+    width: 50%;
+  }
+  #author .author-information .author-about {
+    padding-left: 15px;
+    width: 50%;
+  }
+  #author .author-information .author-about span {
+    padding-left: 40px;
+  }
+  #author .author-information .author-about h3 {
+    padding-left: 40px;
+  }
+  #author .author-information .author-about p {
+    padding-left: 40px;
+  }
+  #author .author-text {
+    margin-top: -130px;
+    position: relative;
+  }
+  #author .author-text p {
+    background-color: white;
+    padding: 60px 15px 60px 100px;
+    margin-left: 100px;
+  }
 }
 @media screen and (max-width: 991px) {
   .site-footer {
@@ -85,6 +128,18 @@
   }
   .site-footer #footer-contacts .site-mobile-app {
     justify-content: center;
+  }
+  #main-header .wrapper {
+    padding: 40px 0;
+  }
+  #main-header .wrapper h1 {
+    font-size: 24px;
+  }
+  #author .author-img {
+    margin-bottom: 25px;
+  }
+  #author .author-text {
+    margin-top: 45px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -590,6 +645,75 @@
 }
 .header #header-bottom .container .row .menu-categories .menu-2 ul li a i {
   margin-right: 7px;
+}
+
+.main #main-header {
+  background-image: url(../background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main #main-header .container {
+  max-width: 1200px;
+}
+.main #main-header .container .wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main #main-header .container .wrapper h1 {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 8px;
+  color: white;
+}
+.main #main-header .container .wrapper h4 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 8px;
+  color: white;
+}
+.main #information {
+  margin-top: 40px;
+  padding: 15px 0;
+}
+.main #information .container {
+  max-width: 1200px;
+}
+.main #information .container .wrapper p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.main #about {
+  padding: 15px 0;
+  margin-bottom: 26px;
+}
+.main #about .container {
+  max-width: 1200px;
+}
+.main #about .container h2 {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.main #about .container p {
+  margin: 0;
+  margin-top: 40px;
+}
+.main #author .container {
+  max-width: 1200px;
+}
+.main #author .container .wrapper .author-img img {
+  max-width: 100%;
+}
+.main #author .container .wrapper .author-about h3 {
+  margin: 40px 0;
+}
+.main #main-text .container {
+  max-width: 1200px;
 }
 
 .site-footer #footer-subscribe {
